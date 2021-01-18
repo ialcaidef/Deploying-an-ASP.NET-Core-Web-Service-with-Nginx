@@ -104,7 +104,12 @@ Demonstration Steps
 47. Open Microsoft Edge.
 48. Navigate to the following URL:
         <server_IP_address>/api/values
+        
+        ![20487D_Images](https://github.com/ialcaidef/Deploying-an-ASP.NET-Core-Web-Service-with-Nginx/blob/master/Images/03.png)
+        
 49. Verify the response is:
         ["value1","value2"]
+        
+        ![20487D_Images](https://github.com/ialcaidef/Deploying-an-ASP.NET-Core-Web-Service-with-Nginx/blob/master/Images/04.png)
 
 Lesson 3: 
