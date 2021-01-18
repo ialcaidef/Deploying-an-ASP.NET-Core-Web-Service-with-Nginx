@@ -23,6 +23,9 @@ Demonstration Steps
 7. In the Inbound Port Rules section , select Allow selected ports and provide the following details:
    - In Select public inbound ports, select the following: HTTP(80), HTTPS(443), and SSH(22).
    - Click OK.
+   
+   ![20487D_Images](https://github.com/ialcaidef/Deploying-an-ASP.NET-Core-Web-Service-with-Nginx/blob/master/Images/01.png)
+   
 8. In the Summary view, click Review + Create and then click Create.
 9. Open the command prompt.
 10. At the command prompt, to change the directory to Demo2Project, run the following command:
@@ -84,6 +87,9 @@ Demonstration Steps
             proxy_cache_bypass $http_upgrade;
             proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
             proxy_set_header   X-Forwarded-Proto $scheme;
+
+![20487D_Images](https://github.com/ialcaidef/Deploying-an-ASP.NET-Core-Web-Service-with-Nginx/blob/master/Images/02.png)
+   
 41. To save the file and exit, press ESC + : + x + Enter.
 42. To verify that the syntax of the configuration file is correct, run the following command:
         sudo nginx -t
